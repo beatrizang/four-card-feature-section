@@ -15,6 +15,13 @@
     box-sizing: border-box;
 }
 
+a{
+    color: var(--very-dark-blue);
+}
+a:hover{
+    text-decoration: none;
+}
+
 body{
     display: flex;
     font-family: 'Poppins', sans-serif;
@@ -24,6 +31,7 @@ body{
     align-items: center;
 }
 .container{
+    margin-top: 5em;
     justify-content: center;
 }
 
@@ -42,6 +50,7 @@ body{
 .text p {
     color: var(--grayish-blue);
     font-weight: 400;
+    padding: 1em  5em 0 5em;
 }
 
 #title{
@@ -107,3 +116,25 @@ footer{
     margin-bottom: 1em;
 }
 
+footer p{
+    color: var(--grayish-blue);
+}
+
+@media only screen and (max-width: 1260px){
+    .boxes{
+        flex-direction: column;
+    }
+
+    .supervisor{
+        margin-right: 0;
+        margin-bottom: 2em;
+    }
+
+    .karma{
+        margin-bottom: 2em;
+    }
+
+    .calculator{
+        margin-left: 0;
+    }
+}
