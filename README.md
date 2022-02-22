@@ -41,7 +41,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Clik Here] (https://beatrizang.github.io/four-card-feature-section/)
+- Live Site URL: https://beatrizang.github.io/four-card-feature-section/
 ## My process
 
 ### Built with
